@@ -41,12 +41,19 @@ html {
 
 body {
   display: flex;
-  max-width: 1440px;
   height: 100vh;
-  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
   background-color: hsl(212, 45%, 89%);
+  overflow: hidden;
 }
 
 .container {
   background-color: hsl(0, 0%, 100%);
+  width: 260px;
+  height: 420px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  box-shadow: 0 3px 10px rgba(204, 204, 204, 0.2);
 }
